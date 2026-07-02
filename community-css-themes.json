@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "name": "Sample Theme",
+    "author": "Froots",
+    "repo": "Froots-ai/froots-sample-theme",
+    "modes": ["light", "dark"]
+  }
+]

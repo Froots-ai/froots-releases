@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "sample-plugin",
+    "name": "Sample Plugin",
+    "author": "Froots",
+    "description": "Demonstrates the Froots plugin API: commands, toasts, KB access, settings, cleanup.",
+    "repo": "Froots-ai/froots-sample-plugin"
+  }
+]
