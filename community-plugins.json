@@ -3,7 +3,7 @@
     "id": "sample-plugin",
     "name": "Sample Plugin",
     "author": "Froots",
-    "description": "Demonstrates the Froots plugin API: commands, toasts, KB access, settings, cleanup.",
+    "description": "Demonstrates the Froots plugin API: a custom viewport tab (registerView), commands, toasts, KB access, settings, cleanup.",
     "repo": "Froots-ai/froots-sample-plugin"
   }
 ]
