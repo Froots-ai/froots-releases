@@ -59,13 +59,17 @@ Start from the
 
 1. Froots reads `community-plugins.json` / `community-css-themes.json` —
    name, author, and description power in-app search.
-2. The detail view pulls `manifest.json` and `README.md` live from your repo.
-3. Install downloads the release assets from the tag matching your manifest
-   version into the user's `workspace/plugins/<id>/` (or `themes/<Name>/`).
+2. Install fetches your repo's HEAD `manifest.json` for the latest version
+   and compatibility floor; if the user's app is older than your
+   `minAppVersion`, the newest compatible entry in your `versions.json` is
+   installed instead (Obsidian's fallback mechanism).
+3. The release assets for that tag are downloaded into the user's
+   `workspace/plugins/<id>/` (or `themes/<Name>/`) — atomically; nothing is
+   written until every required asset has arrived.
 
-> In-app browse/install is under development; until it ships, this registry
-> is the canonical directory and users install by dropping release assets
-> into the folder manually.
+In-app browse + install shipped in **Settings → Plugins → Browse** (plugins)
+and **Settings → Themes** (themes). Manual folder-drop installs keep working
+and skip the version gate — handy for development.
 
 ## Security model
 
