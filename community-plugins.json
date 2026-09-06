@@ -5,5 +5,12 @@
     "author": "Froots",
     "description": "Demonstrates the Froots plugin API: a custom viewport tab (registerView), commands, toasts, KB access, settings, cleanup.",
     "repo": "Froots-ai/froots-sample-plugin"
+  },
+  {
+    "id": "roughdraft",
+    "name": "Roughdraft",
+    "author": "Dylan Worrall",
+    "description": "See Roughdraft review notes on your KB pages \u2014 comments, suggestions and what's still unresolved \u2014 in one tab.",
+    "repo": "Froots-ai/froots-roughdraft"
   }
 ]
